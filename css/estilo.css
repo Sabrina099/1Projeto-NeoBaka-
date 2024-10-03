@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    border-style: solid;
+    width: 90vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#topo {
+    width: 90%;
+    height: 20vh;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px e 30px ;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topo1{
+    width: 30%;
+    height: 90%;
+    background-color: sienna;
+    border-color: black;
+    border-radius: 50px;
+}
+
+#topo2{
+    width: 60%;
+    height: 90%;
+    background-color: sienna;
+    border-color: black;
+    border-radius: 15px;
+
+}
