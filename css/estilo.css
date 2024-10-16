@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-#container {
+#painel {
     border-style: solid;
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
-    background-color: cornflowerblue;
+    background-color: #07A8E9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -15,30 +15,51 @@
 
 }
 #topo {
-    width: 90%;
-    height: 20vh;
+    width: 100%;
+    height: 10vh;
     border-style: solid;
     border-color: black;
-    border-radius: 50px e 30px ;
-    background-color: silver;
+    border-radius: 60px e 30px ;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 #topo1{
-    width: 30%;
+    width: 15%;
     height: 90%;
     background-color: white;
     border-color: black;
-    border-radius: 50px;
+    border-radius: 70px;
 }
 
 #topo2{
-    width: 60%;
+    width: 80%;
     height: 90%;
-    background-color: sienna;
+    background-color: white;
     border-color: black;
-    border-radius: 15px;
+    border-radius: 35px;
+
+}
+#Lat1 {
+    width: 25%;
+    height: 80vw;
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+    align-items: right;
+    border-radius: 35px;
+
+}
+#principal {
+ 
+    width: 70%;
+    height: 80vw;
+    background-color: white;
+    border-color: black;
+    border-radius: 35px;
+    align-items: left;
+
 
 }
