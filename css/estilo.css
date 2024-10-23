@@ -6,12 +6,13 @@
 #painel {
     border-style: solid;
     width: 100vw;
-    height: 100vh;
+    
     background-color: #07A8E9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    overflow: auto;
 
 }
 #topo {
@@ -42,16 +43,36 @@
     border-radius: 35px;
 
 }
-#Lat1 {
-    width: 25%;
-    height: 80vw;
-    border-style: solid;
-    background-color: black;
-    border-color: black;
-    align-items: right;
-    border-radius: 35px;
+#Quadrado{
+    background: black;
+    width: 30%;
+    height: 90%;
+    animation: go-back 3s infinite alternate;
+    }
+  
+  @keyframes go-back {
+    from {
+    transform: translateX(1500px);
+    }
+    to {
+    transform: translateX(0);
+    }
+}
+
+#Lat {
+     width: 21%;
+     height: 80vw;
+     background-color: azure;
+     background-image: url(../imagens/imag1.jpg);
+     
+     border-color: black;
 
 }
+#gif {
+    text-align: center;
+   padding: 15px;
+}
+
 #principal {
  
     width: 70%;
@@ -62,4 +83,41 @@
     align-items: left;
 
 
+}
+#Part1 {
+  width: 100%;
+  height: 12vw;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+}
+#Part2 {
+
+  width: 100%;
+  height: 12vw;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+
+}
+#Part3 {
+    width: 100%;
+    height: 19vw;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+#Part4 {
+    width: 100%;
+    height: 19vw;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+#Part5 {
+    width: 100%;
+    height: 19vw;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
 }
